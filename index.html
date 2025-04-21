@@ -6,10 +6,25 @@
     <title>Document</title>
 </head>
     <body>
+        <style>
+            body{
+                margin: 0%;
+                padding: 0%;
+            }
+            table, th, td{
+                border: 1px solid black;
+                text-align: center;
+            }
+            h1{
+                text-align: center;
+                background-color: blanchedalmond;
+            }
+
+        </style>
         <div class="container">
-            <center><H1>Cars</H1></center>
+            <H1>Cars</H1>
             <div class="table">
-                <table border="1">
+                <table>
                     <tr>
                         <th>Car Name</th>
                         <th>Car Image</th>
@@ -43,6 +58,8 @@
             </div>
             <div class="form">
                 <form>
+                    <fieldset>
+                    <legend>Informathin:</legend>
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
                     
@@ -53,6 +70,7 @@
                     <input type="date" name="date" id="date" required>
 
                     <input type="submit">
+                </fieldset>
                 </form>
             </div>
         </div>
